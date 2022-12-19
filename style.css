@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+svg {
+    width: 70%;
+}
+
+section {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+}
+
+section:nth-of-type(2) {
+    background: rgb(232, 227, 214);
+}
+
+svg path {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+    stroke-width: .4;
+    stroke: #000;
+    fill: none;
+    /* transition: stroke-dashoffset 1s; */
+}
